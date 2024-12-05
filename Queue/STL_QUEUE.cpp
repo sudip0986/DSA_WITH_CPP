@@ -1,0 +1,19 @@
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    queue<int>q;
+    
+      q.push(5);
+         q.push(51);
+          q.push(15);
+           q.push(50);
+           q.pop();
+            cout<<q.front()<<endl;
+            cout<<q.back()<<endl;
+            cout<<q.size()<<endl;
+            q.pop();
+            q.pop();
+            q.pop();
+            cout<<q.empty();
+}
